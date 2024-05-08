@@ -1,0 +1,4 @@
+Notas Importantes Curso Git & GitHub:
+
+-- Añadir todos los cambios al tercer stage:
+git add --all
