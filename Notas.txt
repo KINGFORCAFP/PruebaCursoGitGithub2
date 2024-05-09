@@ -20,3 +20,9 @@ git help push
 
 -- Crear archivos desde consola:
 touch nombre_de_archivo
+
+-- Comando git clean es peligroso puede borrar archivos que son necesarios.
+-- antes de utilizar el comando git clean se recomienda utilizar el comando "git clean -n" para saber que archivos se van a borrar con el comando git clean
+
+-- para retirar un cambio que ya fue trackeado a añadido con el comando git add, se utiliza el comando git checkout mas el nombre del archivo que se desea retirar:
+git checkout nombre_archivo
