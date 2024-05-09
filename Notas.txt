@@ -2,3 +2,18 @@ Notas Importantes Curso Git & GitHub:
 
 -- Añadir todos los cambios al tercer stage:
 git add --all
+
+-- Ver commits:
+git log
+
+-- Agregar repositorio a local:
+git remote add origin git@github.com:KINGFORCAFP/CursoGit-GitHub.git
+
+-- Ver si el repositorio se creo correctamente:
+git remote -v
+
+-- clave ssh SHA256:KV0Fb0j6A0T/nA+GmLt45JaPI7iWtjQm8oeiI/g5YvE
+
+-- Ver ayudas de opciones de git:
+git help --all
+git help push
