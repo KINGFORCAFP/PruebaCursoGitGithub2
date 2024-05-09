@@ -17,3 +17,6 @@ git remote -v
 -- Ver ayudas de opciones de git:
 git help --all
 git help push
+
+-- Crear archivos desde consola:
+touch nombre_de_archivo
