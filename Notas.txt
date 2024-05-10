@@ -38,3 +38,9 @@ mv viejo_nombre nuevo_nombre
 git add nuevo_nombre
 git rm viejo_nombre
 dejando listo el archivo en el stage 2 para posteriormente realizar commit.
+
+-- Para eliminar una rama por consola se utiliza el comando:
+git branch -d nombre_rama
+
+-- Para cambiar el nombre a una rama por consola se utiliza el comando:
+git branch -m nombre_viejo nombre_nuevo
