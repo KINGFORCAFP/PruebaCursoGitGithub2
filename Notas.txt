@@ -29,3 +29,6 @@ git checkout nombre_archivo
 
 -- para devolver los cambios del stage 2 al stage 1 se utiliza el comando:
 git reset HEAD nombre_archivo
+
+-- para revertir cambios de la etapa 3 "commits" se utiliza el comando git revert mas el codigo hash del commit el cual podemos encontrar con el comando git log ejemplo:
+git revert be0a8efae7e6b0d3390a20c2ef30f23c4edf29cc
