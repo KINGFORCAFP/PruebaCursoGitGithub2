@@ -44,3 +44,6 @@ git branch -d nombre_rama
 
 -- Para cambiar el nombre a una rama por consola se utiliza el comando:
 git branch -m nombre_viejo nombre_nuevo
+
+-- Para crear y pasar a la nueva rama se utiliza el comando:
+git checkout -b nombre_rama
