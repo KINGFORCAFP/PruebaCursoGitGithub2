@@ -26,3 +26,6 @@ touch nombre_de_archivo
 
 -- para retirar un cambio que ya fue trackeado a añadido con el comando git add, se utiliza el comando git checkout mas el nombre del archivo que se desea retirar:
 git checkout nombre_archivo
+
+-- para devolver los cambios del stage 2 al stage 1 se utiliza el comando:
+git reset HEAD nombre_archivo
