@@ -32,3 +32,9 @@ git reset HEAD nombre_archivo
 
 -- para revertir cambios de la etapa 3 "commits" se utiliza el comando git revert mas el codigo hash del commit el cual podemos encontrar con el comando git log ejemplo:
 git revert be0a8efae7e6b0d3390a20c2ef30f23c4edf29cc
+
+-- El comando "git mv" hace lo siguiente en un solo paso:
+mv viejo_nombre nuevo_nombre
+git add nuevo_nombre
+git rm viejo_nombre
+dejando listo el archivo en el stage 2 para posteriormente realizar commit.
