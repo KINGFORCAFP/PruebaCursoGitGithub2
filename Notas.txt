@@ -74,3 +74,6 @@ git show nombre_del_tag
 
 -- para eliminar una etiqueta se utiliza el siguiente comando:
 git tag -d nombre_del_tag
+
+-- comando para saber que repositorios remotos tenemos en local:
+git remote -v
