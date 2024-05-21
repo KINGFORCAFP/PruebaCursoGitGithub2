@@ -59,3 +59,18 @@ git stash list
 
 -- para limpiar lo que contiene el comando stash se utiliza el comando:
 git stash clear
+
+-- para crear etiquetas se utiliza el siguiente comando:
+git tag -a v1.0 -m "descripcion del tag"
+
+-- para crear etiqueta a un comit puntual se realiza de la siguiente manera:
+git tag -a v0.0 -m "descripcion del tag" codigo_hash del commit
+
+-- para ver las etiquetas que se han creado se utiliza el comando:
+git tag
+
+-- para ver la descripción de una etiqueta se utiliza el comando:
+git show nombre_del_tag
+
+-- para eliminar una etiqueta se utiliza el siguiente comando:
+git tag -d nombre_del_tag
