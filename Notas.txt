@@ -56,3 +56,6 @@ git stash pop
 
 -- para listar los stash que se guardaron se utiliza el comando:
 git stash list
+
+-- para limpiar lo que contiene el comando stash se utiliza el comando:
+git stash clear
