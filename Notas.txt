@@ -53,3 +53,6 @@ git merge nombre_de_la_rama_a_donde_va_ir_el_merge
 
 -- comando para guardar codigo mientras trabajo sobre otros cambios:
 git stash pop
+
+-- para listar los stash que se guardaron se utiliza el comando:
+git stash list
